@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AboutFragment"
+    android:background="@color/bookShelfLight">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/txtAbout"
+        android:layout_height="wrap_content"
+        android:text="About BookShelf"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:padding="10dp"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:id="@+id/imgAbout"
+        android:layout_below="@+id/txtAbout"
+        android:layout_centerHorizontal="true"
+        android:layout_height="120dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/book_shelf_logo" />
+
+    <ImageView
+        android:id="@+id/imgDevAbout"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/imgAbout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/vishesh_wo_img" />
+
+    <TextView
+        android:id="@+id/devAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgDevAbout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Developed By Vishesh Pahwa"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="visheshpahwa1212@gmail.com"
+        android:textColor="#ffffff"
+        android:id="@+id/txtEmailAbout"
+        android:textSize="18sp"
+        android:layout_below="@+id/devAbout"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>
